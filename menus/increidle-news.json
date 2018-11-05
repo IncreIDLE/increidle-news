@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle increidle-news",
+        "command": "increidle-news:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "Increidle-news",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "increidle-news:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

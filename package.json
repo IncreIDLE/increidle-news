@@ -1,0 +1,21 @@
+{
+  "name": "Increidle-news",
+  "main": "./lib/increidle-news",
+  "version": "0.0.0",
+  "description": "Noticias y actualizaciones para los estudiantes de primer año de la Escuela de Ingeniería en Informática de la Pontificia Universidad Católoca de Valparaíso.",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "increidle-news:toggle"
+  },
+  "repository": "https://github.com/atom/increidle-news",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "deserializers": {
+    "increidle-news/IncreidleNewsView": "deserializeIncreidleNewsView"
+  }
+}
